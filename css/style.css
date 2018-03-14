@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #ececec;
+    min-height: 95px;
+    padding-top: 25px;
+}
+
+.nav{
+    background-color: #130F40;
+    min-height: 95px;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+    position: relative;
+}
+
+.nav ul li a {
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 38px 12px;
+	transition: 1s;
+	border-right: 1px solid #4834D4;
+	width: 129px;
+	text-align: center;
+}
+
+.nav ul li:last-child a{
+    border: none;
+}
+
+.nav ul li a:hover{
+    background-color: #4834D4;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/*Dropdown menu*/
+
+.nav ul li ul {
+	background-color: #130F40;
+	min-height: 296px;
+    position: absolute;
+    left: -9999999px;
+}
+
+.nav ul li:hover ul{
+    left: 0;
+}
+
+.nav ul li ul li{
+    clear: both;
+}
+
+.nav ul li ul li a{
+	border-right: none;
+	width: 160px;
+	padding: 20px 30px;
+	text-align: left;
+    border-bottom: 1px solid #4834D4;
+}
+
+.nav ul li ul li:last-child a{
+    border-bottom: none;
+}
+
+.nav ul li ul li a:hover{}
+
+
+
+.gallery{
+    background-color: #ececec;
+    min-height: 900px;
+}
+
+/*
+.image-gallery{
+    padding-top: 40px;
+}
+*/
+
+.sigle-image{
+    border: 1px solid #4834D4;
+    width: 28%;
+    float: left;
+    transition: 1s;
+    margin: 40px 27px;
+}
+
+.sigle-image:hover{
+    transform: scale(1.2);
+}
+
+.sigle-image .image{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.sigle-image .image img{
+    width: 100%;
+}
+
+.sigle-image .title{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.sigle-image .title h3{
+    color: #130F40;
+}
+
+
+.footer{
+    background-color: #ececec;
+    min-height: 100px;
+    border-top: 1px solid #d4d4d7;
+}
+
+.footer-text {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 40px;
+	color: ;
+}
+
+.footer-text p{
+    color: #130F40;
+}
+
+
+
+
+
+
+
+
